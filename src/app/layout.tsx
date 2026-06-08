@@ -15,7 +15,16 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "Halo SQL Schema & Query Tool",
-  description: "AI-powered database schema design and querying",
+  description:
+    "Halo is an AI-powered workspace for designing database schemas, refining table relationships, and generating SQL queries from natural language.",
+  keywords: [
+    "halo",
+    "database schema",
+    "sql",
+    "query builder",
+    "ai",
+    "next.js",
+  ],
 };
 
 export default function RootLayout({
